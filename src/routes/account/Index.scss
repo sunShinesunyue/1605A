@@ -1,0 +1,325 @@
+:global{
+    #root {
+        width:100%;
+        height:100%;
+    }
+    .account_wraper {
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #EEEFF0;
+    }
+    // 头部
+    .account_header {
+        padding:0 0.6rem;
+        width:100%;
+        height:4rem;
+        background: #2c2c2c;
+        display:flex;
+        justify-content: space-between;
+        color:#fff;
+        align-items: center;
+        .account_yinpin {
+            width:25px;
+            height:25px;
+            display: inline-block;
+            background: url('../../assets/myIcon/yinpin.png') no-repeat 0 0/100%;
+            vertical-align: middle;
+            margin-right:0.5rem;
+        }
+        .account_number {
+            margin-left:2rem;
+        }
+    }
+    // 中间
+    .account_content {
+        flex:1;
+        height:auto;
+        overflow-y: scroll;
+        // 用户信息
+        .account_info {
+            width:100%;
+            height:6rem;
+            border-bottom:1px solid #E2E3E4;
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            background: #FBFCFD;
+            .account_person{
+                .account_image{
+                    width:5rem;
+                    height:6rem;
+                    display: inline-block;
+                    background: url('../../assets/person_self_r1_c1.png') no-repeat 0 0/100%;
+                    vertical-align: middle;
+                    margin-top:1rem;
+                }
+            }
+            // 签到
+            .sign_in {
+                width:auto;
+                height:auto;
+                padding:0.3rem 1.5rem;
+                border:1px solid #ccc;
+                border-radius:0.7rem;
+                background: #FBFCFD;
+            }
+        }
+        // 动态
+        .person_words {
+            width:100%;
+            height:3.5rem;
+            display:flex; 
+            align-items: center;
+            justify-content: space-around;
+            border-bottom:1px solid #E2E3E4;
+            background: #FBFCFD;
+            font-size:0.6rem;
+            p{
+                display:flex; 
+                flex-direction: column;
+                text-align: center;
+                border-right:1px solid #E2E3E4;
+                padding-right:1rem;
+                box-sizing:border-box;
+                span{
+                    color:#C8C8C8;
+                }
+            } 
+            .my_account_info {
+                border:none;
+                .my_account_pencil {
+                    width:1rem;
+                    height:1rem;
+                    display: inline-block;
+                    background: url('../../assets/account_icon/pan_icon-copy.png') no-repeat 0 0/100%;
+                    vertical-align: middle;
+                    margin-left:1rem;
+                }
+            }            
+        }
+        // 设置
+        .my_account_setting {
+            width:100%;
+            height:3rem;
+            padding:0 0.3rem;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            background:#FFFCE6;
+            font-size:0.4rem;
+        }
+        // 信息内容区域
+        .my_account_message {
+            width:100%;
+            height:auto;
+            .my_account_message_ul {
+                .my_account_li_first {
+                    padding:0 0.5rem;
+                    height:3rem;
+                    background:#FBFCFD;
+                    margin:0.36rem 0;
+                    .myMessage {
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/xinxi.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-right:0.52rem;
+                    }
+                    .myAnimail {
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/animals.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-left:11rem;
+                    }
+                    .acount_arrow{
+                        margin-left:0.7rem;
+                        color:#E1E2E3;
+                    }
+                }
+                .my_account_li_second {
+                    padding:0 0.5rem;
+                    height:3rem;
+                    background:#FBFCFD;
+                    .myMessage_second {
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/huiyuan.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-right:0.52rem;
+                    }
+                    .myAnimail_second {
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/present.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-left:11rem;
+                    }
+                    .acount_arrow{
+                        margin-left:0.7rem;
+                        color:#E1E2E3;
+                    }
+                }
+                .my_account_li_third {
+                    padding:0 0.5rem;
+                    height:3rem;
+                    background:#FBFCFD;
+                    .myMessage_third {
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/cart_active.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-right:0.52rem;
+                    }
+                    .acount_arrow{
+                        margin-left:15.6rem;
+                        color:#E1E2E3;
+                    }
+                }
+                .my_account_li_four {
+                    padding:0 0.5rem;
+                    height:3rem;
+                    background:#FBFCFD;
+                    .myMessage_four {
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/youxishoubing.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-right:0.52rem;
+                    }
+                    .myAnimail_four {
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/dog.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-left:6rem;
+                    }
+                    .acount_arrow{
+                        margin-left:0.7rem;
+                        color:#E1E2E3;
+                    }
+                }
+                .my_account_li_five{
+                    padding:0 0.5rem;
+                    height:3rem;
+                    background:#FBFCFD;
+                    .myMessage_five{
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/weibiaoti-.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-right:0.52rem;
+                    }
+                    .acount_arrow{
+                        margin-left:9.5rem;
+                        color:#E1E2E3;
+                    }
+                }
+                .my_account_li_six{
+                    padding:0 0.5rem;
+                    height:3rem;
+                    background:#FBFCFD;
+                    .myMessage_six{
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/shezhi2.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-right:0.52rem;
+                    }
+                    .acount_arrow{
+                        margin-left:15.5rem;
+                        color:#E1E2E3;
+                    }
+                }
+                .my_account_li_seven{
+                    padding:0 0.5rem;
+                    height:3rem;
+                    background:#FBFCFD;
+                    .myMessage_seven{
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/saoyisao.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-right:0.52rem;
+                    }
+                    .acount_arrow{
+                        margin-left:14.5rem;
+                        color:#E1E2E3;
+                    }
+                }
+                .my_account_li_eight{
+                    padding:0 0.5rem;
+                    height:3rem;
+                    background:#FBFCFD;
+                    .myMessage_eight{
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/skin.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-right:0.52rem;
+                    }
+                    .acount_arrow{
+                        margin-left:13.6rem;
+                        color:#E1E2E3;
+                    }
+                }
+                .my_account_li_nine{
+                    padding:0 0.5rem;
+                    height:3rem;
+                    background:#FBFCFD;
+                    .myMessage_nine{
+                        width:2rem;
+                        height:3rem;
+                        display: inline-block;
+                        background: url('../../assets/account_icon/dengpao.png') no-repeat 0 0/100%;
+                        vertical-align: middle;
+                        margin-top:1rem;
+                        vertical-align: middle;
+                        margin-right:0.52rem;
+                    }
+                    .acount_arrow{
+                        margin-left:13.6rem;
+                        color:#E1E2E3;
+                    }
+                }
+            }
+        }
+        
+    }
+}

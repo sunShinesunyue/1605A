@@ -1,0 +1,158 @@
+@import "./common.scss";
+:global {
+    html,
+    body,
+    #root {
+        width:100%;
+        height:100%; 
+    }
+    // 整体
+    .music_wraper {
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    // 顶部
+    .music_top {
+        width:100%;
+        height:4rem;
+        background:#2c2c2c;
+        line-height: 4rem;
+        padding:0 1rem; 
+        display:flex;
+        align-items: center;
+        // box-sizing: border-box;
+        // 搜索框
+        .search{
+            flex:1;
+            height:2rem;
+            border:1px solid #ccc;
+            border-radius:20px;
+            text-indent:2rem;
+            margin:0 10px;
+        }
+        // icon
+        .sing{
+            width:15px;
+            height:15px;
+            display: inline-block;
+            background: url('../assets/icon.png') no-repeat 0 0/100%;
+        }
+        .autio {
+            width:15px;
+            height:15px;
+            display: inline-block;
+            background: url('../assets/yinpin.png') no-repeat 0 0/100%;
+        }
+    }
+    // 主体区
+    .music_center {
+        width:100%;
+        flex:1;
+        // 切换
+        .music_tab {
+            width:100%;
+            height:3rem;
+            background:#2c2c2c;
+            color:#fff;
+            line-height:3rem;
+            display:flex;
+            justify-content: space-around;
+        }
+        // 轮播区域
+        // .music_swiper {
+        //     text-align: center;
+        //     height: 160px;
+        //     line-height: 160px;
+        //     background: #364d79;
+        //     overflow: hidden;
+        // } 
+    }
+    // 底部
+    .music_bottom {
+        width:100%;
+        height:6rem;
+        line-height: 3rem;
+        footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 6rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: .15rem 0;
+            border-top: 1px solid #eee;
+            background: rgba(255,255,255,.4);
+            a{
+              font-size: 0;
+              text-align: center;
+            }
+            a p{
+              width: 1.7rem;
+              height: 1.7rem;
+              margin-bottom: .1rem;
+            }
+            a span{
+              font-size: .3rem;
+              color: #2d2d2d;
+            }
+            a.active span{
+              color: #c0c0c0;
+            }
+            a:first-child{
+              p{
+                background: url('../assets/discover.png') no-repeat 0 0/100%;
+              }
+            }
+            a:first-child,.active{
+              p{
+                background: url('../assets/discover_active.png') no-repeat 0 0/100%;
+              }
+            }
+            a:nth-child(2){
+              p{
+                background: url('../assets/video.png') no-repeat 0 0/100%;
+              }
+            }
+            a:nth-child(2),.active{
+              p{
+                background: url('../assets/video_active.png') no-repeat 0 0/100%;
+              }
+            }
+            a:nth-child(3){
+              p{
+                background: url('../assets/my.png') no-repeat 0 0/100%;
+              }
+            }
+            a:nth-child(3),.active{
+              p{
+                background: url('../assets/my_active.png') no-repeat 0 0/100%;
+              }
+            }
+            a:nth-child(4){
+              p{
+                background: url('../assets/friend.png') no-repeat 0 0/100%;
+              }
+            }
+            a:nth-child(4),.active{
+              p{
+                background: url('../assets/friend_active.png') no-repeat 0 0/100%;
+              }
+            }
+            a:last-child{
+              p{
+                background: url('../assets/account.png') no-repeat 0 0/100%;
+              }
+            }
+            a:last-child,.active{
+              p{
+                background: url('../assets/account_active.png') no-repeat 0 0/100%;
+              }
+            }
+          }
+          
+    }
+}

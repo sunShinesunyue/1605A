@@ -1,0 +1,168 @@
+:global .my_music_wraper {
+  width: 100%;
+  height: auto;
+}
+
+:global .my_music_wraper .music_top {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+:global .my_music_wraper .music_top .my_sing {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/myIcon/yun.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+}
+
+:global .my_music_wraper .music_top .my_music {
+  flex: 1;
+  display: inline-block;
+  text-align: center;
+}
+
+:global .my_music_wraper .music_top .my_autio {
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  background: url("../../assets/myIcon/yinpin.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+}
+
+:global .my_music_wraper .my_music_content {
+  width: 100%;
+  height: auto;
+}
+
+:global .my_music_wraper .my_music_content .my_music_dl {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  display: flex;
+}
+
+:global .my_music_wraper .my_music_content .my_music_dl .my_music_dtO {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/myIconSecond/yinyue.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+:global .my_music_wraper .my_music_content .my_music_dl .my_music_dt1 {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/myIconSecond/bofang.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+:global .my_music_wraper .my_music_content .my_music_dl .my_music_dt2 {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/myIconSecond/diantai.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+:global .my_music_wraper .my_music_content .my_music_dl .my_music_dt3 {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/myIconSecond/wodeshoucang.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+:global .my_music_wraper .my_music_content .my_music_dl .my_music_dt4 {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/myIconSecond/yueliang.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+:global .my_music_wraper .my_music_content .my_music_dl .my_music_dd {
+  flex: 1;
+  display: flex;
+  margin-left: 1rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  border-bottom: 0.02rem solid #E2E3E4;
+}
+
+:global .my_music_wraper .my_music_content .my_music_dl .my_music_dd .arrow {
+  padding-right: 0.5rem;
+  color: #979798;
+}
+
+:global .my_music_wraper .my_music_content .my_music_create {
+  padding: 0 1rem;
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8D8E8F;
+  background: #EEEFF0;
+}
+
+:global .my_music_wraper .my_music_content .my_music_create .span_first {
+  padding-left: 1rem;
+}
+
+:global .my_music_wraper .my_music_content .my_like_music {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+:global .my_music_wraper .my_music_content .my_like_music .my_like_music_icon {
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+  background: url("../../assets/music_heart.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+}
+
+:global .my_music_wraper .my_music_content .my_like_music h4 {
+  color: #8A8A8B;
+}
+
+:global .my_music_wraper .my_music_content .my_like_young {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+:global .my_music_wraper .my_music_content .my_like_young .my_like_young_icon {
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+  background: url("../../assets/music_heart_second.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+}
+
+:global .my_music_wraper .my_music_content .my_like_young h4 {
+  color: #8A8A8B;
+}
+
+:global .my_music_wraper .my_music_content .all {
+  padding-left: 1rem;
+}

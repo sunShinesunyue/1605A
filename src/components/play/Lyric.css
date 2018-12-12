@@ -1,0 +1,11 @@
+:global .song_text_wraper {
+  width: 100%;
+  height: auto;
+  padding: 220px 0;
+  background: -webkit-linear-gradient(top, purple, blue, red, pink, skyblue, purple);
+  text-align: center;
+}
+
+:global .song_Text {
+  color: #000;
+}

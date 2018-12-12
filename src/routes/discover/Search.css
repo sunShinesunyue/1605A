@@ -1,0 +1,91 @@
+:global ul {
+  overflow: hidden;
+}
+
+:global ul .music_list_heart {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url("../../assets/music_list_icon/xin.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+  margin: 0 0.6rem;
+}
+
+:global ul .music_list_download {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url("../../assets/music_list_icon/xiazai.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+  margin-right: 0.6rem;
+}
+
+:global ul .music_song_first_name {
+  margin-top: 0.3rem;
+  color: #000;
+  margin-left: 1rem;
+}
+
+:global ul .music_song_name {
+  margin-left: 5.3rem;
+  margin-top: 0.5rem;
+  color: #000;
+  border-bottom: 1px dashed #c0c0c0;
+}
+
+:global .item {
+  border-bottom: 1px solid #c0c0c0;
+  padding: .15rem .3rem;
+}
+
+:global .item p:first-child {
+  font-size: .3rem;
+}
+
+:global .item p:nth-child(2) {
+  font-size: .26rem;
+}
+
+:global .cloud_music_header {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: #d43c33;
+}
+
+:global .cloud_music_header .cloud_music_search {
+  flex: 1;
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-indent: 1.5rem;
+  margin-left: 0.5rem;
+  background: #ccc;
+}
+
+:global .cloud_music_header .cloud_music_icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/music_header-icon/wangyiyun.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+}
+
+:global .cloud_music_header .music_search_click {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #d43c33;
+  margin: 0 0.5rem;
+  border-radius: 10px;
+}
+
+:global .cloud_music_header .music_play_click {
+  width: auto;
+  height: 2.5rem;
+  background: #d43c33;
+  margin: 0 0.5rem;
+  border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+:global {
+    .music_recommend {
+        width:100%;
+        height:auto;
+        overflow-y: scroll;
+    }
+    .music_all {
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .everyMusic {
+        width:30%;
+        height:auto;
+        margin-left:0.6rem;
+    }
+    .music_pic{
+        width:7rem;
+        height:6rem;
+    }
+}

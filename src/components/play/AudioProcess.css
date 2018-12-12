@@ -1,0 +1,11 @@
+.canvas {
+  width: 80%;
+  margin-left: 10%;
+}
+
+:global .canvas_wraper {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  background: -webkit-linear-gradient(top, red, blue, purple);
+}

@@ -1,0 +1,99 @@
+:global .friend_wraper {
+  width: 100%;
+  height: 100%;
+}
+
+:global .music_top {
+  width: 100%;
+  display: flex;
+}
+
+:global .friend_sing {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/friendIcon/wode.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+}
+
+:global .friend_autio {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/friendIcon/yinpin.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+}
+
+:global .friend_button {
+  height: auto;
+  flex: 1;
+  text-align: center;
+}
+
+:global .friend_button .friend_dynamic {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 0 1.5rem;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 30px;
+  background: #fff;
+}
+
+:global .friend_button .friend_nearby {
+  display: inline-block;
+  color: #fff;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+
+:global .friend_button .friend_nearby .nearby_child {
+  display: inline-block;
+}
+
+:global .friend_secondTop {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background: #2c2c2c;
+  display: flex;
+  text-align: center;
+}
+
+:global .friend_secondTop .friend_dynamic {
+  flex: 1;
+  color: #fff;
+}
+
+:global .friend_secondTop .friend_dynamic .friend_dynamic_child {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/friendIconSecond/bianji.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+:global .friend_secondTop .friend_viedo {
+  flex: 1;
+  color: #fff;
+}
+
+:global .friend_secondTop .friend_viedo .friend_viedo_child {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../assets/friendIconSecond/fabushipin.png") no-repeat 0 0/100%;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+:global .frient_content {
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+}

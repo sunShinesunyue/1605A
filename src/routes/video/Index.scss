@@ -1,0 +1,57 @@
+:global {
+    .music_center {
+        width:100%;
+        flex:1;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        .video_content {
+            .video_headr {
+                width:100%;
+                height:4rem;
+                line-height:4rem;
+                background: #2c2c2c;
+                span{
+                    margin-left:1rem;
+                    color:#fff;
+                }
+            }
+        }
+        .video_pic {
+            width:100%;
+            height:100%;
+            margin-top:0.5rem;
+            img{
+                width:100%;
+                height:100%;
+                border-radius:15px;
+            }
+        }
+        // icon图标
+        .video_like {
+            width:30px;
+            height:30px;
+            display: inline-block;
+            background: url('../../assets/viedo_icon/like.png') no-repeat 0 0/100%;
+            margin-left:7rem;
+            vertical-align: middle;
+        }
+        .video_discuss {
+            width:30px;
+            height:30px;
+            display: inline-block;
+            background: url('../../assets/viedo_icon/discuss.png') no-repeat 0 0/100%;
+            margin-left:2rem;
+            vertical-align: middle;
+        }
+
+        .video_music {
+            width:30px;
+            height:30px;
+            display: inline-block;
+            background: url('../../assets/viedo_icon/music.png') no-repeat 0 0/100%;
+            margin-left:2rem;
+            vertical-align: middle;
+        }
+    }  
+}
+

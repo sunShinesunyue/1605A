@@ -1,0 +1,40 @@
+
+:global {
+    html,
+    body,
+    #root {
+        width:100%;
+        height:100%; 
+    }
+    // 整体
+    .music_wraper {
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    // 主体区
+    .music_center {
+        width:100%;
+        flex:1;
+    }
+
+    // icon头头
+    .icon_header{
+        width:100%;
+        height:4rem;
+        border:1px solid #ccc;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    // 推荐歌单区域
+    .music_recommend {
+        width:100%;
+        height:auto;
+        overflow-y: scroll;
+    }
+
+}
